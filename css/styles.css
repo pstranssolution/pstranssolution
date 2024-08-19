@@ -1,0 +1,35 @@
+/* css/style.css */
+body {
+    padding-top: 56px; /* Adjust for navbar height */
+}
+
+.jumbotron {
+    background: url('images/banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.navbar {
+    background-color: #007bff; /* Primary blue */
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.btn-primary {
+    background-color: #dc3545; /* Red color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #c82333; /* Darker red */
+}
+
+footer {
+    background-color: #343a40; /* Dark background */
+}
+
+footer a {
+    color: #ffffff; /* White text for email links */
+}
